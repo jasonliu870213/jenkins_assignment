@@ -1,7 +1,5 @@
 #!/bin/zsh
-source /Users/liuchenghsuan/PycharmProjects/Automation-Test-Program-Batch2-Project/venv/bin/activate
-export PATH="/Users/liuchenghsuan/PycharmProjects/Automation-Test-Program-Batch2-Project/venv/bin:$PATH"
-
-ls -l
+source source /Users/liuchenghsuan/PycharmProjects/jenkins_assignment/venv/bin/activate
 echo 'gggggggggggggg'
-python -m pytest --alluredir=./
+python -m pytest --alluredir=./allure-results
+
